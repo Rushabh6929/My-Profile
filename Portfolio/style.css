@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.offset::before{
+display: block;
+content: "";
+height: 4rem;
+
+}
+
+
+/* NAV BAR CSS SURU*/
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding-top: 20px !important;
+    background: rgba(17, 17, 17, 0.612);
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+/* NAV BAR CSS SAMPLI */
+
+
+/* FIRST PAGE CSS SURU */
+
+
+.heading-firstpage {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    max-width: 100%;
+    /* border: 2px solid chartreuse; */
+}
+
+
+.heading-firstpage h5 {
+
+    font-size: 2em;
+    /* margin-top: initial; */
+    /* font-size: x-large; */
+    font-weight: 300;
+    color: white;
+    /* color: greenyellow; */
+    font-family: monospace;
+    font-weight: 600;
+    /* border: 2px solid chartreuse; */
+
+}
+
+.heading-firstpage h1 {
+
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+    /* color: greenyellow; */
+    font-family: 'Montserrat', sans-serif;
+    /* border: 2px solid chartreuse; */
+
+}
+
+.heading-firstpage p {
+    font-size: 2em;
+    font-weight: x-large;
+    color: white;
+    /* color: greenyellow; */
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    /* font-weight: 600; */
+    /* border: 2px solid chartreuse; */
+
+}
+
+.background {
+    width: 100%;
+    height: auto;
+
+}
+
+
+/* FIRST PAGE CSS SAMPLI */
+
+/* About wala page suru */
+
+
+#about .row {
+
+    padding: 2rem;
+    max-height: 10%;
+    align-items: center;
+
+}
+
+#about .img-fluid {
+    max-width: 100%;
+    height: -webkit-fill-available;
+    border: rgb(0, 0, 0) solid 3px;
+    height: 22rem;
+    }
+
+
+
+#about .btn {
+    /* border: 2px solid red; */
+    width: 40%;
+    /* padding: 15px 22px; */
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#about .btn a {
+
+    /* border: 2px solid red; */
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover {
+    background-color: rgb(217, 225, 65);
+
+}
+
+#about p {
+    /* background-color: blue; */
+    text-align: justify;
+}
+
+/* About wala page sampla */
+
+/* Education Wala Page Suru */
+
+.container-fluid:hover {
+    cursor: pointer;
+}
+
+.card img:hover{
+    border: black 2px solid;
+    box-shadow: 10px 10px 10px;
+    box-shadow: black;
+}
+
+.card-title{
+    /* border: black 2px solid; */
+    justify-items: center;
+}
+
+
+/* Education Wala Page Sampla */
+
+/* Certificate wala page suru */
+
+.d-block {
+    border: 3px solid rgb(0, 0, 0);
+
+}
+
+
+
+#carouselExampleCaptions {
+    /* background-color: rgb(211, 7, 7); */
+    width: 100% !important;
+    background-image: url("IMAGES/EDU-BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+    
+}
+
+.carousel-caption {
+    /* border: 5px;
+    border: solid;
+    color: black !important; */
+    justify-items: center;  
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    /* height: 10rem; */
+
+}
+
+.carousel-caption h5 {
+    justify-content: flex-start !important;
+    /* border: 2px solid yellow; */
+    
+    
+}
+
+.carousel-caption p {
+    /* transform: translateX(100%) !important; */
+    /* border: 2px solid yellow; */
+    height: 10rem;
+
+}
+
+#carouselExampleCaptions .Carousel-slide {
+    align-items: center !important;
+
+}
+
+#carouselExampleCaptions .carousel-indicators {
+
+    /* text-indent: 0; */
+    cursor: pointer;
+    border: none;
+    color: black !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+#carouselExampleCaptions .carousel-indicators .active {
+
+    background-color: #050505;
+}
+
+.carousel-inner {
+    width: 50% !important;
+}
+
+.carousel-item img{
+border: rgb(149, 255, 0) 3px solid;
+    height: auto ;
+    width: 80%;
+}
+
+/* Certificate wala page sampla */
+
+/* SKill Wala Page */
+
+.subheading{
+
+    /* border: red solid 2px; */
+    text-align: center;
+        /* color: #6c757d; */
+    }
+#Certificates .ul{
+        border: rgb(8, 0, 255) solid 2px; 
+        /* padding-left: 5rem;              */
+    }
+
+    .list-inline-item{
+        /* border: rgb(234, 0, 255) solid 2px;   */
+        justify-content: space-evenly;
+        justify-content: center;
+        color: #6c757d;
+        justify-items: center;
+        margin: 2rem;
+        
+}
+
+.list-inline-item:hover{
+        color: black;
+        
+}
+
+            /* Media Querry SURU */
+@media  Screen and (min-width: 767px) { 
+
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding-top: 10px !important;
+        
+    }
+    .navbar .navbar-brand {
+        letter-spacing: 0.1rem;
+        padding-top: 10px !important;
+    }
+
+    .heading-firstpage {
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        max-width: 100%;
+        /* border: 2px solid chartreuse; */
+    }
+    
+    
+    .heading-firstpage h5 {
+    
+        font-size: 1em;
+        /* margin-top: initial; */
+        /* font-size: x-large; */
+        font-weight: 100;
+        color: white;
+        
+    }
+    
+    .heading-firstpage h1 {
+    
+        font-size: 2.5em;
+        font-weight: bold;
+        color: white;
+    
+    }
+    
+    .heading-firstpage p {
+        font-size: 1em;
+        font-weight: x-large;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    
+}
+
+@media  Screen and (max-width: 479px) { 
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding-top: 10px !important;
+        
+    }
+    .navbar .navbar-brand {
+        letter-spacing: 0.1rem;
+        padding-top: 10px !important;
+    }
+
+    .heading-firstpage {
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        max-width: 100%;
+        /* border: 2px solid chartreuse; */
+    }
+    
+    
+    .heading-firstpage h5 {
+    
+        font-size: 1em;
+        /* margin-top: initial; */
+        /* font-size: x-large; */
+        font-weight: 100;
+        color: white;
+        
+    }
+    
+    .heading-firstpage h1 {
+    
+        font-size: 2.5em;
+        font-weight: bold;
+        color: white;
+    
+    }
+    
+    .heading-firstpage p {
+        font-size: 1em;
+        font-weight: x-large;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+
+}
+
+
+@media  Screen and (min-width: 913px) { 
+.heading-firstpage {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    max-width: 100%;
+    /* border: 2px solid chartreuse; */
+}
+
+
+.heading-firstpage h5 {
+
+    font-size: 4em;
+    /* margin-top: initial; */
+    /* font-size: x-large; */
+    font-weight: 300;
+    /* color: white; */
+    color: greenyellow;
+    font-family: monospace;
+    font-weight: 600;
+    /* border: 2px solid chartreuse; */
+
+}
+
+.heading-firstpage h1 {
+
+    font-size: 5em;
+    font-weight: bold;
+    /* color: white; */
+    color: greenyellow;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 2px solid chartreuse; */
+
+}
+
+.heading-firstpage p {
+    font-size: 2.5em;
+    font-weight: x-large;
+    /* color: white; */
+    color: greenyellow;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    /* font-weight: 600; */
+    /* border: 2px solid chartreuse; */
+
+}
+}
+
+
+@media  Screen and (min-width: 540px) { 
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding-top: 10px !important;
+        
+    }
+    .navbar .navbar-brand {
+        letter-spacing: 0.1rem;
+        padding-top: 10px !important;
+    }
+
+    .heading-firstpage {
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        max-width: 100%;
+        /* border: 2px solid chartreuse; */
+    }
+    
+    
+    .heading-firstpage h5 {
+    
+        font-size: 1em;
+        /* margin-top: initial; */
+        /* font-size: x-large; */
+        font-weight: 100;
+        color: white;
+        
+    }
+    
+    .heading-firstpage h1 {
+    
+        font-size: 2.5em;
+        font-weight: bold;
+        color: white;
+    
+    }
+    
+    .heading-firstpage p {
+        font-size: 1em;
+        font-weight: x-large;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    
+}
+
+
+@media  Screen and (min-width: 1024px) { 
+    .navbar {
+        letter-spacing: 0.3rem;
+        padding-top: 20px !important;
+        
+    }
+    .navbar .navbar-brand {
+        letter-spacing: 0.2rem;
+        padding-top: 10px !important;
+    }
+
+    .heading-firstpage {
+        position: absolute;
+        top: 35%;
+        width: 100%;
+        max-width: 100%;
+        /* border: 2px solid chartreuse; */
+    }
+    
+    
+    .heading-firstpage h5 {
+    
+        font-size: 3em;
+        /* margin-top: initial; */
+        /* font-size: x-large; */
+        font-weight: 100;
+        color: white;
+        
+    }
+    
+    .heading-firstpage h1 {
+    
+        font-size: 5em;
+        font-weight: bold;
+        color: white;
+    
+    }
+    
+    .heading-firstpage p {
+        font-size: 2em;
+        font-weight: x-large;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    
+}
+
+
+           /* Media Querry SAMPLI */
